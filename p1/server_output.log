@@ -1,0 +1,45 @@
+Server listening on 10.0.0.1:6555
+Waiting for client connection...
+Connection established with client ('10.0.0.2', 37064)
+Sent packet 0
+Sent packet 1
+Sent packet 2
+Sent packet 3
+Sent packet 4
+Received ACK packet: {"ack_seq": 0}
+Received ACK for packet 0
+SampleRTT for packet 0: 0.0438 seconds
+Updated TimeoutInterval: 1.7171 seconds
+Received ACK packet: {"ack_seq": 1}
+Received ACK for packet 1
+SampleRTT for packet 1: 0.0439 seconds
+Updated TimeoutInterval: 2.1354 seconds
+Sent packet 5
+Received ACK packet: {"ack_seq": 2}
+Received ACK for packet 2
+SampleRTT for packet 2: 0.0440 seconds
+Updated TimeoutInterval: 2.3445 seconds
+Sent packet 6
+Received ACK packet: {"ack_seq": 3}
+Received ACK for packet 3
+SampleRTT for packet 3: 0.0441 seconds
+Updated TimeoutInterval: 2.4096 seconds
+Sent packet 7
+Received ACK packet: {"ack_seq": 4}
+Received ACK for packet 4
+SampleRTT for packet 4: 0.0450 seconds
+Updated TimeoutInterval: 2.3778 seconds
+Received ACK packet: {"ack_seq": 5}
+Received ACK for packet 5
+SampleRTT for packet 5: 0.0518 seconds
+Updated TimeoutInterval: 2.2790 seconds
+Received ACK packet: {"ack_seq": 6}
+Received ACK for packet 6
+SampleRTT for packet 6: 0.0543 seconds
+Updated TimeoutInterval: 2.1426 seconds
+Received ACK packet: {"ack_seq": 7}
+Received ACK for packet 7
+SampleRTT for packet 7: 0.0543 seconds
+Updated TimeoutInterval: 1.9879 seconds
+Sent END signal to client
+Server socket closed.

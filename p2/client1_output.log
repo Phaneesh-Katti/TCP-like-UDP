@@ -1,0 +1,42 @@
+
+=== Starting TCP Reno-like UDP Client ===
+Server IP: 10.0.0.3
+Server Port: 6555
+Output File: 1received_file.txt
+
+Initializing client connecting to 10.0.0.3:6555
+Socket created with 2 second timeout
+Initialized CongestionControl with unlimited receive window
+Output will be written to: 1received_file.txt
+Sending START signal to server...
+START signal sent
+Output file opened for writing
+
+Waiting for packet... (expecting sequence number 0)
+Received packet with sequence number 0
+In-order packet received (seq=0)
+Wrote 1400 bytes to file
+Sending cumulative ACK for sequence number 1399
+Sent ACK packet: ack_num=1399
+
+Waiting for packet... (expecting sequence number 1400)
+Received packet with sequence number 1400
+In-order packet received (seq=1400)
+Wrote 1400 bytes to file
+Sending cumulative ACK for sequence number 2799
+Sent ACK packet: ack_num=2799
+
+Waiting for packet... (expecting sequence number 2800)
+Received packet with sequence number 2800
+In-order packet received (seq=2800)
+Wrote 769 bytes to file
+Sending cumulative ACK for sequence number 3568
+Sent ACK packet: ack_num=3568
+
+Waiting for packet... (expecting sequence number 3569)
+Received packet with sequence number -1
+
+=== File transfer complete ===
+
+Closing client socket
+Client socket closed

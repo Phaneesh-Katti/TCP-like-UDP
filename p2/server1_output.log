@@ -1,0 +1,37 @@
+Starting TCP Reno-like UDP server
+Server starting on 10.0.0.3:6555
+Server listening on 10.0.0.3:6555
+RTTEstimator initialized with RTO=1.0
+Initialized CongestionControl with cwnd=1400, ssthresh=65535
+Waiting for client connection...
+Client connected from ('10.0.0.1', 33220)
+File to send: input.txt (3569 bytes)
+
+Available window: 1400 bytes, cwnd=1400, in-flight=0
+Sending packet with sequence number 0 (size=1400)
+Waiting for ACK with timeout of 1.0 seconds...
+ACK received for sequence number 1399
+ACK received: 1399
+New ACK received (ACK: 1399)
+Slow start: cwnd increased to 2800
+Packet with sequence number 0 acknowledged and removed from unacked list
+
+Available window: 2800 bytes, cwnd=2800, in-flight=0
+Sending packet with sequence number 1400 (size=1400)
+Sending packet with sequence number 2800 (size=769)
+Waiting for ACK with timeout of 1.0 seconds...
+ACK received for sequence number 2799
+ACK received: 2799
+New ACK received (ACK: 2799)
+Slow start: cwnd increased to 4200
+Packet with sequence number 1400 acknowledged and removed from unacked list
+
+Available window: 3431 bytes, cwnd=4200, in-flight=769
+Waiting for ACK with timeout of 1.0 seconds...
+ACK received for sequence number 3568
+ACK received: 3568
+New ACK received (ACK: 3568)
+Slow start: cwnd increased to 5600
+Packet with sequence number 2800 acknowledged and removed from unacked list
+All packets acknowledged, sending end marker
+Closing server socket
